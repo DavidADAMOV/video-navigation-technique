@@ -28,7 +28,6 @@ def generate_json_data(from_this_directory):
             os.system(bashCommand)
             
             temp_video_file = open("./"+temp_video_file_name+".json","r")
-            #print(temp_video_file.read())
             json_temp_elt = json.load(temp_video_file)
             json_video_files[media] = json_temp_elt
             temp_video_file.close()
@@ -37,7 +36,7 @@ def generate_json_data(from_this_directory):
     os.remove(temp_video_file_name+".json")
 
     video_file = open(from_this_directory+"/../"+video_file_name+".json","w")
-    json.dump(json_video_files,video_file,indent=2)
+    json.dump(json_video_files,video_file,indent=4)
 
 if __name__ == "__main__" :
     if (len(sys.argv)<2):

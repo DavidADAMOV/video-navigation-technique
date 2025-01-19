@@ -218,7 +218,7 @@ sketch
 package-lock.json
 
 src/media/
-data/medias/
+data/medias/*
 data/medias_info.json
 
 video-navigation-dist
