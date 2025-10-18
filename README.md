@@ -5,7 +5,7 @@
 ## Description du projet
 
 L'objectif de ce projet est de faire une plateforme pour tester et présenter les différentes techniques de navigation permettant d'avancer ou de reculer dans la vidéo.
-Le problème lorsqu'on navigue dans une vidéo, c'est que souvent, le nombre de pixels sur la barre de navigation peut être inférieur au nombre d'images dans la vidéo, ce qui fait que lorsqu'on bouge d'un pixel dans une vidéo assez long, on saute plusieurs images dans la navigation de la vidéo.
+Le problème lorsqu'on navigue dans une vidéo, c'est que souvent, le nombre de pixels sur la barre de navigation peut être inférieure au nombre d'images dans la vidéo, ce qui fait que lorsqu'on bouge d'un pixel dans une vidéo assez longue, on saute plusieurs images dans la navigation de la vidéo.
 
 ## Comment Lancer le projet ?
 
